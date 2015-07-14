@@ -4,4 +4,4 @@ I destroy a raspberry pi installation on average two times per month and consequ
 
 
 <b>Usage</b>: 
-simply run <i><b>python raspawn.py</b></i> 
+<i><b>python raspawn.py</b></i> 
