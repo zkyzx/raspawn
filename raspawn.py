@@ -146,9 +146,9 @@ class Raspawn(object):
         subproc.call(shlex.split("sudo unzip raspbian.zip"))
         image = [f for f in os.listdir(".") if ".img" in f][0]
 
-        r = subproc.call(shlex.split("dd bs=4M if=%s of=%s" % (image, self.sd_card)))
         print("Writing image to disk.")
-
+        r = subproc.call(shlex.split("dd bs=4M if=%s of=%s" % (image, self.sd_card)))
+        
         if r != 0:
             print("Image transfer failed!")
             exit(1)
