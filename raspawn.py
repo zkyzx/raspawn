@@ -6,7 +6,7 @@
 
 
 # Author: cognosco41 
-# Description: A simple script for setting up your lifeless raspberry pi. 
+# Description: A simple script for setting up your raspberry pi. 
 
 #########################################################################
 
