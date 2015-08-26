@@ -1,15 +1,3 @@
-#!/usr/bin/python
-
-#########################
-######## raspawn ########
-#########################
-
-
-# Author: cognosco41 
-# Description: A simple script for setting up your raspberry pi. 
-
-#########################################################################
-
 import shlex
 import os
 import subprocess as subproc
